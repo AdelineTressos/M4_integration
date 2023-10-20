@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvaluationEx1Page1</title>
+</head>
+<style>
+
+    *{
+        margin:0;
+        padding: 0;
+
+    }
+
+    div{
+        /* background-color: blue; */
+        display: grid;
+        grid-template-columns: 800px;
+        grid-template-rows: auto;
+        gap: 10px;
+        width: 800px;
+        margin:10px;
+        padding: 10px;
+        border: 1px solid;
+    }
+    
+    .firstimg{
+        
+        grid-column:1;
+        grid-row: 1 / 4;
+       
+    }
+
+    .secondimg{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .thirdimg{
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+
+
+</style>
+<body>
+
+    <div>
+        <img class="firstimg" src="page01_img01_800x678.jpg"/>
+        <img class="secondimg" src="page01_img02_800x212.jpg"/>
+        <img class="thirdimg" src="page01_img03_800x212.jpg"/>
+    </div>
+
+</body>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvaluationEx3</title>
+</head>
+
+<style>
+
+
+
+/*screen mobile*/
+@media screen and (max-width: 767px) {
+    main{
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 60px);
+        
+    }
+    
+    .a{
+        grid-column: 1;
+        grid-row: 1;
+       
+    }
+
+    .b{
+        grid-column: 1;
+        grid-row: 2;
+        
+    }
+
+    .c {
+        grid-column: 1;
+        grid-row: 7;
+        
+    }
+
+    .d{
+        grid-column: 1;
+        grid-row: 3 / 7;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .e{
+        grid-column: 1;
+        grid-row: 8;
+      
+    }
+
+    .f{
+        grid-column: 1;
+        grid-row: 9; 
+        
+    }
+}
+
+/*screen tablet*/
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    main{
+        gap: 15px;
+        grid-template-columns: repeat(11,1fr);
+        grid-template-rows: repeat(8, 80px);
+
+    }
+
+    .a{
+        grid-column: 1 / span 11;
+        grid-row: 1;
+        
+    }
+
+    .b{
+    grid-column: 1 / span 11;
+    grid-row: 2;
+
+    }
+
+    .c {
+    grid-column: 1 ;
+    grid-row: 3 / span 5;
+
+    }
+
+    .d{
+    grid-column: 2/ span 10;
+    grid-row: 3 / span 5;
+
+    }
+
+    .e{
+    grid-column: 1;
+    grid-row: 8;
+
+    }
+
+    .f{
+    grid-column: 2 / span 10;
+    grid-row: 8; 
+
+    }
+}
+    /*screen desktop*/
+    @media screen and (min-width: 1440px) {
+    main{
+        gap: 15px;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(8, 80px);
+
+    }
+
+    .a{
+    grid-column: 1 / span 6;
+    grid-row: 1;
+
+    }
+
+    .b{
+    grid-column: 2 / span 4;
+    grid-row: 2;
+
+    }
+
+    .c {
+    grid-column: 1 ;
+    grid-row: 2 / span 6;
+
+    }
+
+    .d{
+    grid-column: 2 / span 4;
+    grid-row: 3 / span 5;
+
+    }
+
+    .e{
+    grid-column: 6;
+    grid-row: 2 / span 6;
+
+    }
+
+    .f{
+    grid-column: 1 / span 6 ;
+    grid-row: 8; 
+
+    }
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+main{
+    display: grid;
+    
+    margin:10px;
+
+}
+
+div{
+    border: solid;
+}
+
+
+.a{
+
+    background-color: blue;
+}
+
+.b{
+
+    background-color: red;
+}
+
+.c {
+
+    background-color: violet;
+}
+
+.d{
+
+    background-color: green;
+}
+
+.e{
+
+    background-color: brown;
+}
+
+.f{
+
+    background-color: grey;
+}
+
+
+
+</style>
+
+<body>
+
+    <main>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+    </main>
+       
+</body>

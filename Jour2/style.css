@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    /* background-color: bisque; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*header*/
+.logo {
+    float: left;
+    padding: 20px;
+}
+
+nav {
+    float: right;
+    margin:10px;
+}
+
+li {
+    display: inline-block;
+    padding: 8px;
+    color: grey;
+}
+
+input[type="button"] {
+    padding: 15px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+/*div clear*/
+.cache{
+    clear: both;
+}
+
+
+/*main*/
+main{
+    padding:20px 70px;
+    /* border: solid; */
+}
+
+/*auteur article*/
+.avatar{
+    /* background-color: beige; */
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.avatarimg{
+    width: 20%;
+    margin-right: 10px;
+    float:left;
+    
+}
+
+.author{
+    width:200px;
+    float:left;
+    margin-top: 5px;
+    
+}
+
+.author > p{
+    margin:5px;
+
+}
+
+#job{
+    color: grey;
+}
+
+#name{
+    font-weight: bold;
+}
+
+/*article principal*/
+.presentation{
+    margin:auto;
+    padding: 20px 15px;
+    min-width: 1000px;
+    /* background-color: blueviolet; */
+}
+
+.mainimg {
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.newsletter{
+    display:inline-block;
+    max-width: 55%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    
+}
+
+.newsletter > p {
+    margin-bottom: 20px;
+    line-height: 150%;
+    color: grey;
+}
+
+.threearticles{
+    margin: auto;
+}
+
+/* Article */
+
+.article{
+    display: inline-block;
+    width: 30%;
+    height: 500px;
+    margin-right: 30px;
+    /* border: solid violet; */
+}
+
+.articleimg{
+    width: 95%;
+    padding-top: 20px; 
+    padding-bottom: 25px;
+}
+
+h2{ 
+    height: 15%;
+    width: 80%;
+    /* border: solid grey */
+}
+
+.article > p {
+
+    height: 40px;
+    width: 80%;
+    line-height: 150%;
+    color: grey;
+    /* border: solid green; */
+}
+
+/*footer*/
+footer > p{
+    float: right;
+    padding: 30px;
+    color: grey;
+}
